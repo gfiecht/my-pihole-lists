@@ -1,2 +1,9 @@
-id,address,enabled,date_added,date_modified,comment,date_updated
-1,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,1,1585426667,1593348722,Default,1609016914
+id,address,enabled,date_added,date_modified,comment,date_updated,number,invalid_domains,status
+1,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,1,1590234006,1590234006,"Migrated from /etc/pihole/adlists.list",1662865934,138289,0,1
+2,https://mirror1.malwaredomains.com/files/justdomains,1,1590234006,1590234006,"Migrated from /etc/pihole/adlists.list",1607358861,0,0,4
+3,http://sysctl.org/cameleon/hosts,1,1590234006,1590234006,"Migrated from /etc/pihole/adlists.list",1657919009,20562,0,2
+4,https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist,1,1590234006,1590234006,"Migrated from /etc/pihole/adlists.list",1615091711,0,0,4
+5,https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt,1,1590234006,1590234006,"Migrated from /etc/pihole/adlists.list",1657919016,34,0,2
+6,https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt,1,1590234006,1590234006,"Migrated from /etc/pihole/adlists.list",1657919018,2701,0,2
+7,https://hosts-file.net/ad_servers.txt,1,1590234006,1590234006,"Migrated from /etc/pihole/adlists.list",,0,0,4
+8,https://raw.githubusercontent.com/CamelCase11/UnifiedHosts/master/hosts.all,1,1590234006,1590234006,"Migrated from /etc/pihole/adlists.list",1635545542,0,0,4

@@ -1,21 +1,54 @@
 id,type,domain,enabled,date_added,date_modified,comment
-19,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1585426668,1608564394,
-20,3,^(.+[-_.])??ad[sxv]?[0-9]*[-_.],1,1585426668,1608564396,
-21,3,^(.+[-_.])??telemetry[-.],1,1585426668,1608564398,
-22,3,^(.+[-_.])??xn--,1,1585426668,1608564400,
-23,3,^adim(age|g)s?[0-9]*[-_.],1,1585426668,1608564401,
-24,3,^adtrack(er|ing)?[0-9]*[-.],1,1585426668,1608564403,
-25,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1585426668,1608564404,
-26,3,^aff(iliat(es?|ion))?[-.],1,1585426668,1608564405,
-27,3,^analytics?[-.],1,1585426668,1608564406,
-28,3,^banners?[-.],1,1585426668,1608564408,
-29,3,^beacons?[0-9]*[-.],1,1585426668,1608564427,
-30,3,^count(ers?)?[0-9]*[-.],1,1585426668,1608564421,
-31,3,^pixels?[-.],1,1585426668,1608564418,
-32,3,^stat(s|istics)?[0-9]*[-.],1,1585426668,1608564415,
-33,3,^track(ers?|ing)?[0-9]*[-.],1,1585426668,1608564413,
-34,3,^traff(ic)?[-.],1,1585426668,1608564412,
-35,3,^(ads|logs|cloudservices).roku.com$,1,1585426668,1608564411,
-36,0,track.shipstation.com,1,1586220825,1589684086,"USPS tracking"
-37,0,ib.huluim.com,1,1593787890,1593787985,"Hulu scrubbing thumbnails"
-43,2,^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$,1,1608398374,1608398374,"Fixes Google Meet buttons"
+1,0,ichnaea.netflix.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+2,0,secureclock.playready.microsoft.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+3,0,cdn.samsungcloudsolution.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+4,0,upu.samsungelectronics.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+5,0,lcprd1.samsungcloudsolution.net,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+6,0,device-metrics-us-2.amazon.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+7,0,fkp.samsungcloudsolution.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+8,0,www.samsungotn.net,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+9,0,otnprd9.samsungcloudsolution.net,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+10,0,otnprd11.samsungcloudsolution.net,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+11,0,time.samsungcloudsolution.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+12,0,infolink.pavv.co.kr,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+13,0,viajocomfilhos.com.br,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+14,0,spclient.wg.spotify.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+15,0,www.bit.ly,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+16,0,bit.ly,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+17,0,ow.ly,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+18,0,j.mp,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+19,0,goo.gl,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+20,0,tinyurl.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+21,0,login.live.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+22,0,mvnrepository.com,1,1590234008,1590234008,"Migrated from /etc/pihole/whitelist.txt"
+23,0,github-production-release-asset-2e65be.s3.amazonaws.com,1,1601494040,1601494040,"Added from Query Log"
+24,0,www.pinterest.de,1,1603360047,1603360047,"Added from Query Log"
+25,0,www.pinterest.com,1,1603360096,1603360096,
+26,0,accounts.pinterest.com,1,1603360386,1603360386,"Added from Query Log"
+28,0,disney.demdex.net,1,1603476271,1603476271,"Added from Query Log"
+31,0,aka.ms,1,1604052466,1604052466,"Added from Query Log"
+32,0,browser.pipe.aria.microsoft.com,1,1604052472,1604052472,"Added from Query Log"
+33,0,www.thesaurus.com,1,1604930881,1604930881,"Added from Query Log"
+34,0,play.googleapis.com,1,1605651260,1605651260,"Added from Query Log"
+35,0,kaggle.com,1,1605692870,1605692870,"Added from Query Log"
+37,0,www.kaggle.com,1,1605693076,1605693076,"Added from Query Log"
+38,0,www.salesforce.com,1,1617011791,1617011792,"Added from Query Log"
+39,0,mobile.pipe.aria.microsoft.com,1,1618926550,1618926550,"Added from Query Log"
+40,0,storeedgefd.dsx.mp.microsoft.com,1,1623064192,1623064192,"Added from Query Log"
+41,0,client.wns.windows.com,1,1624020623,1624020623,"Added from Query Log"
+42,0,events.mapbox.com,1,1624020636,1624020636,"Added from Query Log"
+43,0,adobeid-na1.services.adobe.com,1,1625064653,1625064653,"Added from Query Log"
+44,0,ans.oobesaas.adobe.com,1,1625064944,1625064944,"Added from Query Log"
+45,0,assets.adobedtm.com,1,1625064961,1625064961,"Added from Query Log"
+46,0,sstats.adobe.com,1,1625064965,1625064965,"Added from Query Log"
+47,0,adobe.tt.omtrdc.net,1,1625065059,1625065059,"Added from Query Log"
+48,0,geo2.adobe.com,1,1625065068,1625065068,"Added from Query Log"
+49,0,app.link,1,1625065182,1625065182,"Added from Query Log"
+50,0,use.typekit.net,1,1625065184,1625065184,"Added from Query Log"
+51,0,fonts.gstatic.com,1,1630612627,1630612627,"Added from Query Log"
+52,0,www.kickstarter.com,1,1631372854,1631372854,"Added from Query Log"
+53,0,t.co,1,1633987605,1633987605,"Added from Query Log"
+54,0,skydrive.wns.windows.com,1,1638530510,1638530510,"Added from Query Log"
+55,0,sdk.split.io,1,1638530569,1638530569,"Added from Query Log"
+56,0,ntp.msn.com,1,1638530618,1638530618,"Added from Query Log"
+57,0,tlu.dl.delivery.mp.microsoft.com,1,1638530656,1638530656,"Added from Query Log"
